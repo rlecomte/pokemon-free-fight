@@ -4,7 +4,7 @@
       "name":"Herbizarre",
       "type":"grass",
       "stats":{
-         "hp":60,
+         "hp":180,
          "speed":60
       },
       "basic-attack":{
@@ -24,7 +24,7 @@
       "name":"Reptincel",
       "type":"fire",
       "stats":{
-         "hp":58,
+         "hp":174,
          "speed":80
       },
       "basic-attack":{
@@ -44,7 +44,7 @@
       "name":"Carabaffe",
       "type":"water",
       "stats":{
-         "hp":59,
+         "hp":177,
          "speed":58
       },
       "basic-attack":{
@@ -64,7 +64,7 @@
       "name":"Papilusion",
       "type":"insect",
       "stats":{
-         "hp":60,
+         "hp":180,
          "speed":70
       },
       "basic-attack":{
@@ -84,7 +84,7 @@
       "name":"Dardargnan",
       "type":"insect",
       "stats":{
-         "hp":65,
+         "hp":195,
          "speed":75
       },
       "basic-attack":{
@@ -104,7 +104,7 @@
       "name":"Roucoups",
       "type":"flying",
       "stats":{
-         "hp":63,
+         "hp":189,
          "speed":71
       },
       "basic-attack":{
@@ -124,7 +124,7 @@
       "name":"Rapasdepic",
       "type":"flying",
       "stats":{
-         "hp":65,
+         "hp":195,
          "speed":100
       },
       "basic-attack":{
@@ -144,7 +144,7 @@
       "name":"Arbok",
       "type":"poison",
       "stats":{
-         "hp":60,
+         "hp":180,
          "speed":80
       },
       "basic-attack":{
@@ -164,7 +164,7 @@
       "name":"Pikachu",
       "type":"electric",
       "stats":{
-         "hp":60,
+         "hp":180,
          "speed":100
       },
       "basic-attack":{
@@ -184,7 +184,7 @@
       "name":"Feunard",
       "type":"fire",
       "stats":{
-         "hp":73,
+         "hp":219,
          "speed":100
       },
       "basic-attack":{
@@ -204,7 +204,7 @@
       "name":"Nosferalto",
       "type":"flying",
       "stats":{
-         "hp":75,
+         "hp":225,
          "speed":90
       },
       "basic-attack":{
@@ -224,7 +224,7 @@
       "name":"Parasect",
       "type":"insect",
       "stats":{
-         "hp":60,
+         "hp":180,
          "speed":30
       },
       "basic-attack":{
@@ -244,7 +244,7 @@
       "name":"Triopikeur",
       "type":"ground",
       "stats":{
-         "hp":35,
+         "hp":105,
          "speed":120
       },
       "basic-attack":{
@@ -264,7 +264,7 @@
       "name":"Persian",
       "type":"normal",
       "stats":{
-         "hp":65,
+         "hp":195,
          "speed":115
       },
       "basic-attack":{
@@ -284,7 +284,7 @@
       "name":"Akwakwak",
       "type":"water",
       "stats":{
-         "hp":80,
+         "hp":240,
          "speed":85
       },
       "basic-attack":{
@@ -304,7 +304,7 @@
       "name":"Colossinge",
       "type":"fighting",
       "stats":{
-         "hp":65,
+         "hp":195,
          "speed":95
       },
       "basic-attack":{
@@ -324,7 +324,7 @@
       "name":"Arcanin",
       "type":"fire",
       "stats":{
-         "hp":90,
+         "hp":270,
          "speed":95
       },
       "basic-attack":{
@@ -344,7 +344,7 @@
       "name":"Kadabra",
       "type":"psy",
       "stats":{
-         "hp":40,
+         "hp":120,
          "speed":105
       },
       "basic-attack":{
@@ -364,7 +364,7 @@
       "name":"Magnéton",
       "type":"electrik",
       "stats":{
-         "hp":50,
+         "hp":150,
          "speed":70
       },
       "basic-attack":{
@@ -384,7 +384,7 @@
       "name":"Spectrum",
       "type":"ghost",
       "stats":{
-         "hp":45,
+         "hp":135,
          "speed":95
       },
       "basic-attack":{
@@ -404,7 +404,7 @@
       "name":"Magicarpe",
       "type":"water",
       "stats":{
-         "hp":20,
+         "hp":60,
          "speed":80
       },
       "basic-attack":{
@@ -424,7 +424,7 @@
       "name":"Porygon",
       "type":"normal",
       "stats":{
-         "hp":65,
+         "hp":195,
          "speed":40
       },
       "basic-attack":{
