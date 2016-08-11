@@ -8,7 +8,7 @@ Let's Get Ready To Rumble
 
 ## Règles du jeu :
 
-* Chaque dresseurs commence le duel avec 30 points de vie (HP) et 0 points de rage (MANA)
+* Chaque dresseurs commence le duel avec 500 points de vie (HP) et 0 points de rage (MANA)
 * Chaque dresseur commence le combat avec 6 pokémons
 * Les pokémons possèdent des points de vie et deux attaques : une pouvant être utilisée sans limite, la seconde nécessitant un certain nombre de points de rage.
 * A la fin de chaque tour, les dresseurs gagnent un point de rage. Un bonus supplémentaire d'un point est attribué aux dresseurs ayant perdu leur pokémon dans le tour.
@@ -47,6 +47,29 @@ Dans un premier temps, le focus doit être mis sur la *simulation du combat*, av
 
 ## Référentiels
 
-La liste des pokemons et de leurs attaques est disponible ici (TODO)
+La liste des pokemons et de leurs attaques est disponible ici `[resources/pokemons.json](https://github.com/studiodev/pokemon-free-fight/blob/master/src/main/resources/pokemons.json)`.
+
+```
+   {
+      "number":93,
+      "name":"Spectrum",
+      "type":"ghost",
+      "stats":{
+         "hp":135,
+         "speed":95            // Non utilisé pour le TP1
+      },
+      "basic-attack":{
+         "name":"représailles",
+         "type":"ghost",
+         "damage":45
+      },
+      "power-attack":{
+         "name":"vibrobscur",
+         "type":"ghost",
+         "damage":80,
+         "cost":4              // Cout en rage (mana) pour déclencher cette attaque
+      }
+   }
+```
 
 
