@@ -47,7 +47,7 @@ Dans un premier temps, le focus doit être mis sur la *simulation du combat*, av
 
 ## Référentiels
 
-La liste des pokemons et de leurs attaques est disponible ici `[resources/pokemons.json](https://github.com/studiodev/pokemon-free-fight/blob/master/src/main/resources/pokemons.json)`.
+La liste des pokemons et de leurs attaques est disponible ici [`resources/pokemons.json`](https://github.com/studiodev/pokemon-free-fight/blob/master/src/main/resources/pokemons.json).
 
 ```
    {
