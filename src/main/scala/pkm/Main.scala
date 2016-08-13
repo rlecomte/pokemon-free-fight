@@ -10,4 +10,10 @@ object Main extends App {
 
   val randomPokemon = Pokedex.pokemons(Random.nextInt(Pokedex.pokemons.length))
   println(s"Random: $randomPokemon")
+
+
+  val arena = new Arena
+
+  arena.fight(Team(Dresser("Sacha")), Team(Dresser("Regis")))
+
 }
