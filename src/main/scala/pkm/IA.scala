@@ -74,3 +74,8 @@ class MinMaxIA extends IA {
   }
 }
 object MinMaxIA extends MinMaxIA with LoggerIA
+
+class AggressiveIA extends IA {
+  override def action(team: Team, opponent: Team): Action = AttackDresser(team)
+}
+object AggressiveIA extends AggressiveIA with LoggerIA
