@@ -3,6 +3,7 @@ package pkm
 import scala.util.Random
 
 import pkm.data.Pokedex
+import pkm.models.{Dresser, Team}
 
 object Main extends App {
 
@@ -12,8 +13,5 @@ object Main extends App {
   println(s"Random: $randomPokemon")
 
 
-  val arena = new Arena
-
-  arena.fight(Team(Dresser("Sacha")), Team(Dresser("Regis")))
-
+  Arena.fight(Team(Dresser("Sacha")), Team(Dresser("Regis")))
 }
