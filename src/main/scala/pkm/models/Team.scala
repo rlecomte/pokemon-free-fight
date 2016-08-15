@@ -20,5 +20,5 @@ case class Team(dresser: Dresser, pokemons: List[Pokemon]) {
 
 object Team {
   private def randomPokemon = Pokedex.pokemons(Random.nextInt(Pokedex.pokemons.length))
-  def apply(dresser: Dresser): Team = new Team(dresser,List.fill(6)(randomPokemon))
+  def apply(dresser: String): Team = new Team(Dresser(dresser),List.fill(6)(randomPokemon))
 }

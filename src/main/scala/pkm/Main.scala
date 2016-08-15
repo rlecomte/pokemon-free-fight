@@ -13,5 +13,5 @@ object Main extends App {
   println(s"Random: $randomPokemon")
 
 
-  Arena.fight(Team(Dresser("Sacha")), Team(Dresser("Regis")))
+  Arena.fight(Team("Sacha"), Team("Regis"))
 }

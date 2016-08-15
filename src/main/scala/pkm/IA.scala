@@ -43,7 +43,7 @@ class MinMaxIA extends IA {
   def generateAllCombination() = {
 
     val states = List(attackDresser, attackPokemon, defendDresser)
-    val depth = 3
+    val depth = 5
 
     def rec(x: Int): List[List[State.Value]] = {
       if (x > 0) {
@@ -53,7 +53,7 @@ class MinMaxIA extends IA {
           ss <- r
         } yield s :: ss
       } else {
-        List(states)
+        for(s <- states) yield List(s)
       }
     }
 
